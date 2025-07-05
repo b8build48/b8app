@@ -1,0 +1,508 @@
+<!Doctype html>
+    <html lang="en">
+        <meta charset ="utf-8">
+        <meta name ="viewpoint"content="width=device-width,initial scale=1.0">
+        <title>b8app</title>
+    <header id="header">
+    <div class="header links">
+    <nav>
+      <ul>
+        <li><a href="about us .html">about-us</a></li>
+    </ul>    
+  </nav>
+  </div>
+</header>
+<link rel="stylesheet" href="style.css">
+
+<body>
+  <input type="text" id="search-input" placeholder="Search...">
+  <button id="search-button">Search</button>
+  <div id="search-results"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+<style>
+#search-input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+}
+
+#search-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+#search-results {
+  padding: 20px;
+}
+
+#search-results div {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+</style>
+
+<script>
+const searchInput = document.getElementById('search-input');
+const searchButton = document.getElementById('search-button');
+const searchResults = document.getElementById('search-results');
+
+// Sample data array with links
+const data=[
+  {
+    text:"search engine",
+    link:"#search-engine",
+  },
+   {
+     text:"social",
+    link:"#social",
+},
+   {
+     text:"maps",
+    link:"#maps",
+   },
+  {
+   text:"gmail",
+    link:"#gmail",
+  },
+  { 
+  text:"app store",
+    link:"#app store",
+  },
+  {  
+  text:"ai",
+    link:"#ai",
+  },
+    {
+      text:"gamming",
+    link:"#gamming"
+    },
+];
+
+searchButton.addEventListener('click', search);
+
+function search() {
+  const query = searchInput.value.toLowerCase();
+  const results = data.filter(item => item.text.toLowerCase().includes(query));
+
+  searchResults.innerHTML = '';
+  if (results.length === 0) {
+    searchResults.textContent = 'No results found';
+  } else {
+    results.forEach(result => {
+      const resultElement = document.createElement('div');
+      const linkElement = document.createElement('a');
+      linkElement.textContent = result.text;
+      linkElement.href = result.link;
+      resultElement.appendChild(linkElement);
+      searchResults.appendChild(resultElement);
+    });
+  }
+}
+</script>
+
+
+
+<!Doctype html>
+  <html lang="en"
+
+    
+<main id="content">
+  <div class="button-container">
+  <button class="right-button" onclick="window.location.href='b8build48 coding course.html'">b8build 48  coding </button>
+</div>
+
+<style>
+.button-container {
+  position: fixed;
+  bottom:184px;
+  right: 20px;
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  
+}
+
+.right-button {
+  width:50px;
+  height:50px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #008000;
+  color: #fff;
+}
+
+.right-button:hover {
+  background-color: #3e8e41;
+}
+</style>
+
+  <section id="search-engine">
+  <h1>search engine</h1>
+  <button class="google-button" onclick="window.location.href='https://www.google.com';"></button>
+  <style>
+  .google-button {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1920px-Google_2015_logo.svg.png');
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+  }
+   </style>
+ 
+</section>
+  <section id="social">
+ <h1>social</h1>
+    <button class="facebook-button" onclick="window.location.href='https://www.facebook.com';">face book</button>
+  <style>
+  .facebook-button {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/1200px-Facebook_f_logo_%282019%29.svg.png');
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  </style>
+  <button class="instagram-button" onclick="window.location.href='https://www.instagram.com';">inst agram</button>
+  <style>
+  .instagram-button {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/800px-Instagram_logo_2016.svg.png');
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  </style>
+  <button class="tiktok-button" onclick="window.location.href='https://www.tiktok.com';">tik tok</button>
+  <style>
+  .tiktok-button {
+    background-image: url('https://upload.wikimedia.org/wikipedia/en/a/a9/TikTok_logo.svg');
+    background-size: cover;
+  width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  </style>
+  
+<button class="messenger-button" onclick="window.location.href='https://messenger.com/';">mess enger</button>
+    <style>
+    .messenger-button {
+  background-image: url('https://en.m.wikipedia.org/wiki/File:Facebook_Messenger_logo_2025.svg');
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+    </style>
+    <button class="whatsapp-button" onclick="window.location.href='https://web.whatsapp.com/';">what sapp</button>
+    <style>
+    .whatsapp-button {
+  background-image: url('https://en.m.wikipedia.org/wiki/File:Facebook_Messenger_logo_2025.svg');
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+    </style>
+    <button class="x-button" onclick="window.location.href='https://www.x.com';">x</button>
+    <style>
+    .x-button {
+  background-image: url('https://commons.wikimedia.org/wiki/File:X_logo_2023.svg');
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+    </style>
+  </section>
+  <section id="maps">
+ 
+ <h1>maps</h1> 
+   <button class="google-maps-button" onclick="window.location.href='https://www.google.com/maps';">maps</button>
+<style>
+.google-maps-button {
+  background-image: url('https://commons.wikimedia.org/wiki/File:Maps_Logo_2020.svg');
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+</style>
+    
+  </section>
+
+<section id="gmail">
+<h1>gmail</h1>
+  <button class="gmail-button" onclick="window.location.href='https://mail.google.com';">gmail</button>
+<style>
+.gmail-button {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gmail_icon_%282020%29.svg/1024px-Gmail_icon_%282020%29.svg.png');
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+</style>
+</section>
+
+
+<section id="app store">
+<h1>app store</h1>
+  <button class="play-store-button" onclick="window.location.href='https://play.google.com';">play store</button>
+<style>
+.play-store-button {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Google_Play_Store_badge_EN.svg/1280px-Google_Play_Store_badge_EN.svg.png');
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+</style>
+  
+</section>
+<section id="ai">  
+<h1>ai</h1>
+  <button class="gemini-button" onclick="window.location.href='https://gemini.google.com/';">gem ini</button>
+  <style>
+  .gemini-button {
+  background-image: url('https://commons.wikimedia.org/wiki/File:Google_Gemini_logo.svg');
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+  </style>
+  <button class="meta-ai-button" onclick="window.location.href='https://www.meta.ai/';">meta ai</button>
+  <style>
+  .meta-ai-button {
+  background-image: url('https://commons.wikimedia.org/wiki/File:Meta_AI_logo.png');
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+ </style>
+ <button class="chat-gpt-button" onclick="window.location.href='https://chat.openai.com/';">chat gpt</button>
+ <style>
+ .chat-gpt-button {
+ background-image: url('https://commons.wikimedia.org/wiki/File:ChatGPT-Logo.svg');
+ background-size: cover;
+ width: 50px;
+ height: 50px;
+ border-radius: 10px;
+ border: none;
+ cursor: pointer;
+}
+</style>
+ </section>
+ <section id="gamming">
+ <h1>gamming</h1>
+  <button class="now-gg-button" onclick="window.location.href='https://www.now.gg/';">now.gg</button>
+  <style>
+  .now-gg-button {
+  background-image: url('https://now.gg/images/logo.png'); /* You can replace this with the actual logo URL */
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+</style> 
+   <button class="poki-button" onclick="window.location.href='https://www.poki.com';">poki</button>
+<style>
+.poki-button {
+  background-image: url('https://www.poki.com/favicon.ico'); 
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+
+</style>
+   
+   <button class="xbox-cloud-gaming-button" onclick="window.location.href='https://www.xbox.com/en-US/xbox-game-pass/cloud-gaming';">xbox</button>
+   <style>
+   .xbox-cloud-gaming-button {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Xbox_logo.svg/1024px-Xbox_logo.svg.png');
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+   </style>
+   
+ </section> 
+  <section id="photo-video">
+    <h1>photo and video</h1>
+   <button class="google-photos-button" onclick="window.location.href='https://photos.google.com/';">gpho to</button>
+    <style>.google-photos-button {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Google_Photos_icon_%282020%29.svg/1024px-Google_Photos_icon_%282020%29.svg.png');
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+</style>
+    <button class="youtube-button" onclick="window.location.href='https://www.youtube.com';">you tube</button>
+    <style>
+    .youtube-button {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/YouTube_full-color_icon_%282017%29.svg/1024px-YouTube_full-color_icon_%282017%29.svg.png');
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+    </style>
+    <button class="youtube-music-button" onclick="window.location.href='https://music.youtube.com';">ymu sic</button>
+    <style>
+    .youtube-music-button {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/YouTube_Music_icon.svg/1024px-YouTube_Music_icon.svg.png');
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+    </style>
+  </section>
+    <section id="more">
+      <h1>more</h1>
+      <button class="zoom-button" onclick="window.location.href='https://zoom.us/';">zoom</button>
+      <style>
+      .zoom-button {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Zoom_Logo.svg/1280px-Zoom_Logo.svg.png');
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+</style>
+       </section>
+    <section id="jw libary">
+      <h1>jw.libary</h1>
+      <button class="wt-library-button" onclick="window.location.href='https://wol.jw.org';">jwli bary</button>
+      <style>
+      .wt-library-button {
+  background-image: url('https://www.jw.org/content/dam/jw/images/logos/logo-jworg.svg.png');
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+</style>
+    </section>
+  </main>
+    <footer id="footer">
+        <div class="footer links">
+          <nav> 
+          <ul>
+                <li><a href="b8app.html">quick app</a></li>
+                <li><a href="https://play.google.com/store/apps/details?if=com.the app">premiun app dowload </a></li>
+            </ul>
+          </nav>
+            </div>
+    </footer>
+        </html>
+        <style>
+         
+          #header{
+                position:fixed;
+                top:0;
+                left:-4.8px;
+                width:100%;
+                background-color:#333;
+                color:#fff;
+                padding:1em;
+                text-align:left;
+            }
+            header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+ #content{
+                margin-top:4em;
+                padding:3em;
+            }
+#footer{
+    position:fixed;
+                bottom:0;
+                left: -16.48px;
+                width:100%;
+                background-color:#333;
+                color:#fff;
+                padding:1em;
+                text-align:center;
+}
+footer nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+ a {
+  text-decoration: none;
+}
+  </style>
+ 
