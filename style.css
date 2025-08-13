@@ -1,0 +1,509 @@
+ .codepen-button, .ideone-button, .leetcode-button {
+  width: 84px;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 10px;
+}
+
+.codepen-button {
+  background-color: #141516;
+}
+
+.ideone-button {
+  background-color: #4CAF50;
+}
+
+.leetcode-button {
+  background-color: #FFA116;
+}
+
+  button{
+   
+  }
+  
+  .learning-resources { 
+  width: 300px; 
+  padding: 20px; 
+  border: 1px solid #ccc; 
+  border-radius: 10px; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+} 
+
+.html-button, .css-button, .js-button { 
+  width: 284px; 
+  height: 48px; 
+  border: none; 
+  border-radius: 10px; 
+  color: #fff; 
+  cursor: pointer; 
+  font-size: 16px; 
+  margin-bottom: 10px; 
+} 
+
+.html-button { 
+  background-color: #FF9800; 
+} 
+
+.css-button { 
+  background-color: #2196F3; 
+} 
+
+.js-button { 
+  background-color: #8BC34A; 
+}
+
+.small-button{
+  font-family: Arial, sans-serif;
+  font-size:8px;
+  display:flex;
+  justify-content:flex-end;
+}
+  
+
+  
+.bootstrap{
+ position:fixed;
+}
+         
+
+
+ a {
+  text-decoration: none;
+  display:block;
+  font-size:28px;
+}
+  
+  .b8h1j4{
+   color:yellow;
+  
+ }
+a{
+ display:block;
+ font-size:24px;
+}
+.button-container {
+  position: fixed;
+  bottom:184px;
+  right: 20px;
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+  background-color: #008000;
+  border-radius: 10px;
+ border:#008000 4.8px solid;
+ border-bottom-width:8.4px;
+}
+.right-button {
+  width:50px;
+  height:50px;
+  border:none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #008000;
+  color: #fff;
+}
+
+.right-button:hover {
+  background-color: #3e8e41;
+}
+div[id] {
+  top:0;
+ left:0;
+ width:100%;
+ height:100%;
+ display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display:content;
+ outline:8px solid #87CEEB;
+ outline-width:0px;
+}
+
+
+section[id]::-webkit-scrollbar {
+  height: 8px;
+}
+
+
+
+
+
+.google-button {
+background-image: url('https://cdn.simpleicons.org/google/DB4437');
+    background-size: cover;
+     width: 100px;
+  height: 100px;
+  margin: 10px;
+  border: none;
+  border-radius:35.48px;
+  color: #fff;
+  cursor: pointer;
+  flex-shrink: 0;
+  }
+.facebook-button {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/1200px-Facebook_f_logo_%282019%29.svg.png');
+    background-size: cover;
+     width: 100px;
+  height: 100px;
+  margin: 10px;
+  border: none;
+  border-radius:35.48px;
+  color: #fff;
+  cursor: pointer;
+  flex-shrink: 0;
+  }
+.instagram-button {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/800px-Instagram_logo_2016.svg.png');
+    background-size: cover;
+     width: 100px;
+  height: 100px;
+  margin: 10px;
+  border: none;
+  border-radius:35.48px;
+  color: #fff;
+  cursor: pointer;
+  flex-shrink: 0;
+  } 
+.tiktok-button {
+    background-image: url('https://upload.wikimedia.org/wikipedia/en/a/a9/TikTok_logo.svg');
+    background-size: cover;
+   width: 100px;
+  height: 100px;
+  margin: 10px;
+  border: none;
+  border-radius:35.48px;
+  color: #fff;
+  cursor: pointer;
+  flex-shrink: 0;
+  }
+.messenger-button {
+  background-image: url('Screenshot_2025-07-24-15-21-08-86_b783bf344239542886fee7b48fa4b892.jpg');
+  background-size: cover;
+   width: 100px;
+  height: 100px;
+  margin: 10px;
+  border: none;
+  border-radius:35.48px;
+  color: #fff;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+  .whatsapp-button {
+  background-image: url('https://cdn.simpleicons.org/whatsapp/25D366');
+  background-size: cover;
+   width: 100px;
+  height: 100px;
+  margin: 10px;
+  border: none;
+  border-radius:35.48px;
+  color: #fff;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+.x-button {
+  background-image: url('https://cdn.simpleicons.org/x/000000');
+  background-size: cover;
+   width: 100px;
+  height: 100px;
+  margin: 10px;
+  border: none;
+  border-radius:35.48px;
+  color: #fff;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+.google-maps-button {
+  background-image: url('https://cdn.simpleicons.org/googlemaps/4285F4');
+  background-size: cover;
+   width: 100px;
+  height: 100px;
+  margin: 10px;
+  border: none;
+  border-radius:35.48px;
+  color: #fff;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+.gmail-button {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gmail_icon_%282020%29.svg/1024px-Gmail_icon_%282020%29.svg.png');
+  background-size: cover;
+   width: 100px;
+  height: 100px;
+  margin: 10px;
+  border: none;
+  border-radius:35.48px;
+  color: #fff;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+.play-store-button {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Google_Play_Store_badge_EN.svg/1280px-Google_Play_Store_badge_EN.svg.png');
+  background-size: cover;
+   width: 100px;
+  height: 100px;
+  margin: 10px;
+  border: none;
+  border-radius:35.48px;
+  color: #fff;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+  .gemini-button {
+  background-image: url('IO24_WhatsInAName_Hero_1.width-1200.format-webp (1).webp');
+  background-size: cover;
+   width: 100px;
+  height: 100px;
+  margin: 10px;
+  border: none;
+  border-radius:35.48px;
+  color: #fff;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+.meta-ai-button {
+  background-image: url('https://cdn.simpleicons.org/meta/1877F2');
+  background-size: cover;
+   width: 100px;
+  height: 100px;
+  margin: 10px;
+  border: none;
+  border-radius:35.48px;
+  color: #fff;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+ .chat-gpt-button {
+ background-image: url('https://cdn.simpleicons.org/openai/412991');
+ background-size: cover;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  border: none;
+  border-radius:35.48px;
+  color: #fff;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+ .now-gg-button {
+  background-image: url('Screenshot_2025-07-24-18-13-26-01_be80aec1db9a2b53c9d399db0c602181.jpg'); /* You can replace this with the actual logo URL */
+  background-size: cover;
+   width: 100px;
+  height: 100px;
+  margin: 10px;
+  border: none;
+  border-radius:35.48px;
+  color: #fff;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+.poki-button {
+  background-image: url('https://www.poki.com/favicon.ico'); 
+  background-size: cover;
+   width: 100px;
+  height: 100px;
+  margin: 10px;
+  border: none;
+  border-radius:35.48px;
+  color: #fff;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+.xbox-cloud-gaming-button {
+  background-image: url('https://cdn.simpleicons.org/xbox/52B043');
+  background-size: cover;
+   width: 100px;
+  height: 100px;
+  margin: 10px;
+  border: none;
+  border-radius:35.48px;
+  color: #fff;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+.google-photos-button {
+  background-image: url('Screenshot_2025-07-24-18-34-36-54_b783bf344239542886fee7b48fa4b892.jpg');
+  background-size: cover;
+   width: 100px;
+  height: 100px;
+  margin: 10px;
+  border: none;
+  border-radius:35.48px;
+  color: #fff;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+.youtube-button {
+  background-image: url('Screenshot_2025-07-24-17-40-17-68_b783bf344239542886fee7b48fa4b892.jpg');
+  background-size: cover;
+ width: 100px;
+  height: 100px;
+  margin: 10px;
+  border: none;
+  border-radius:35.48px;
+  color: #fff;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+.youtube-music-button {
+  background-image: url('Screenshot_2025-07-24-17-42-32-58_b783bf344239542886fee7b48fa4b892.jpg');
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  border: none;
+  border-radius:35.48px;
+  color: #fff;
+  cursor: pointer;
+  flex-shrink: 0;
+}      .zoom-button {
+  background-image: url('https://cdn.simpleicons.org/zoom/2D8CFF');
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  border: none;
+  border-radius:35.48px;
+  color: #fff;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+  .wt-library-button {
+  background-image: url('Screenshot_2025-07-24-15-12-02-89_b783bf344239542886fee7b48fa4b892.jpg');
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  border: none;
+  border-radius:35.48px;
+  color: #fff;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+         
+          #header{
+               height:84.48px;
+                width:100%;
+           background-color:blue;
+                color:#fff;
+                padding:1em;
+                text-align:center;
+           
+            }
+            header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+ #content{
+                margin-top:4em;
+                padding:3em;
+            }
+#footer{
+text-align:center;
+    color:black;
+    background-image:url('20250709_192044 (1) (1).jpg');
+    padding-top:8em;
+    padding-bottom:8em;
+    clear:none;
+    background-size:cover;
+    background-position:center;
+}
+.b8h1{
+ font-size:65.84px;
+ font-weight:842;
+}
+ a {
+  text-decoration: none;
+}
+    @media (max-width:600px){
+      /* css for screen bellow or equal to 600px */
+    }
+
+.hey{
+ color:lightblue;
+}
+.small-button{
+ color:lightblue;
+}
+
+#about-us {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+p {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.testimonials {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.testimonial {
+  width:384px;
+  height:348px;
+ margin:20px;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial img {
+  width:50px;
+  height:50px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.testimonial p {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.testimonial h3 {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.cta-button {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.cta-button:hover {
+  background-color: #3e8e41;
+}
+

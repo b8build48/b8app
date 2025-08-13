@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>blessing responsive website</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/B8BUILD48/BlessingResponsiveNavbar@main/style.css">
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+   <nav>
+      <ul class="sidebar">
+        <!-- dont touch it -->
+          <li onclick="hidesidebar()"><a href="#"><i class="material-icons">close</i></a></li>
+                <!-- you can change the href link and their names  -->
+           <li><a href="#">home</a></li>
+            <li><a href="#">about</a></li>
+             <li><a href="#">services</a></li>
+     
+        </ul> 
+    <ul>
+              <!-- change the link and the name of the link -->
+        <!-- thus is the logo--><li ><a href="#">b8build48</a></li>
+           <li class="hideonmobile"><a href="#">home</a></li>
+            <li class="hideonmobile"><a href="#">about</a></li>
+             <li class="hideonmobile"><a href="#">services</a></li>
+             <li class="menubtn"onclick=showsidebar()><a href="#"><i class="material-icons">menu</i></a></li>
+        </ul>
+    </nav>
+<script src="https://cdn.jsdelivr.net/gh/B8BUILD48/BlessingResponsiveNavbar@main/script.js"></script>
+</body>
+</html>
+

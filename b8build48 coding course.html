@@ -1,19 +1,57 @@
 <doctype html>
   <html lang="en">
+  <head>
   <meta charset="utf-8">
-  <meta name="viewpoint"content="width=device-width,initial-scsle=1.0">
-  <title>B8 build48 online coding course</title>
-    <header id="header">
-    <div class="header links">
-    <nav>
-      <ul>
-        <li><a href="about us .html">about-us</a></li>
-    </ul>    
-  </nav>
-  </div>
-</header>
-  <main id="content"><center><h1>welcome to b8build48 online coding courses</h1>
-  <p>learn from scracth practise and see what others have done </p></center>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"></head>
+   <title>B8 build48 online coding course</title>
+  <link rel="stylesheet" href="style.css">
+  </head>
+    <header id="header"><h1 class="b8h1">b8app</h1></header>
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+      <body>
+       <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+            <!-- Brand/logo -->
+            <a class="navbar-brand" href="index.html">home&#127968;</a>
+            
+            <!-- Toggle button for mobile -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    
+                    
+                    <!-- Dropdown menu -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="index.html">log out</a>
+                       
+                    
+
+                    
+                    <!-- Another dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="about-us.html">about us</a>
+                </li>
+               </ul>
+            </div>
+        </div>
+    </nav>
+ <div class="container mt-4">
+        
+
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+   </body>
+         <script type="text/javascript" src="script.js"></script>
+         <main id="content">
+    <h1 id="greeting"></h1>
+           <script>
+           let yourname = localStorage.getItem("input3") || "Guest";
+           document.getElementById("greeting").textContent = "Hello " + yourname + " welcome to b8build48 online coding website" ||"guest"; </script>
+  <p class="hey">learn from scracth practise and see what others have done </p>
 <div class="learning-resources"> 
   <h2>How well do you know coding</h2> 
   <button class="html-button" onclick="window.open('Https://www.tutorialspoint.com/html/index.htm/','_blank')">i dont know</button>                                                                          
@@ -40,130 +78,25 @@
       <p class="small-button">note all codes in this website should not be recopied for bussines use only for personal port foilo </p>
       <p class="small-button">note that the name of a code in a github folder is called respositiry</p>
       <h1>b8build48 respository</h1>
+      <h1 style="font-size:16px;">new boots trap like code</h1>
+      <button onclick="window.location.href='https://b8build48.github.io/Blessingresponsivenavbar/'" style="background-color:white; border:none; border-radius:10px;color:black;" >view the new bootstrap like nav</button>
+            <button onclick="window.location.href='locatuion.css'" style="background-color:white; border:none; border-radius:10px;color:black; margin-top:8px;" >request for the code</button>
       
     </section>
     </main>
 <footer id="footer">
-        <div class="footer links">
-          <nav> 
-          <ul>
-                <li><a href="b8app.html">quick app</a></li>
-                <li><a href="https://play.google.com/store/apps/details?if=com.the app">premiun app dowload </a></li>
-            </ul>
-          </nav>
-            </div>
+  <p>&copy; 2025 b8build48 production</p>
     </footer>
     <style>
-  .codepen-button, .ideone-button, .leetcode-button {
-  width: 84px;
-  height: 40px;
-  border: none;
-  border-radius: 10px;
-  color: #fff;
-  cursor: pointer;
-  font-size: 16px;
-  margin: 10px;
+         body{
+           background-image:url('d773ff30c0d708f6e978d7a183252f75.png');
+           background-repeat:no-repeat;
+           background-size:cover;
+         }
+         *{
+           color:yellow;
+         }
+         p{
+ color:lightblue;
 }
-
-.codepen-button {
-  background-color: #141516;
-}
-
-.ideone-button {
-  background-color: #4CAF50;
-}
-
-.leetcode-button {
-  background-color: #FFA116;
-}
-
-  
-  
-  .learning-resources { 
-  width: 300px; 
-  padding: 20px; 
-  border: 1px solid #ccc; 
-  border-radius: 10px; 
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
-  display: flex; 
-  flex-direction: column; 
-  align-items: center; 
-} 
-
-.html-button, .css-button, .js-button { 
-  width: 284px; 
-  height: 48px; 
-  border: none; 
-  border-radius: 10px; 
-  color: #fff; 
-  cursor: pointer; 
-  font-size: 16px; 
-  margin-bottom: 10px; 
-} 
-
-.html-button { 
-  background-color: #FF9800; 
-} 
-
-.css-button { 
-  background-color: #2196F3; 
-} 
-
-.js-button { 
-  background-color: #8BC34A; 
-}
-
-.small-button{
-  font-family: Arial, sans-serif;
-  font-size:8px;
-  display:flex;
-  justify-content:flex-end;
-}
-  
-
-  
-         
-          #header{
-                position:fixed;
-                top:0;
-                left:-4.8px;
-                width:100%;
-                background-color:#333;
-                color:#fff;
-                padding:1em;
-                text-align:left;
-            }
-            header nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: space-between;
-}
-
-            #content{
-                margin-top:4em;
-                padding:3em;
-            }
-#footer{
-    position:fixed;
-                bottom:0;
-                left:-28px;
-                width:100%;
-                background-color:#333;
-                color:#fff;
-                padding:1em;
-                text-align:center;
-}
-footer nav ul {
-    list-style: none;
-    margin: 0;
-    padding: ;
-    display: flex;
-    justify-content: space-between;
-}
- a {
-  text-decoration: none;
-}
-  </style>
  
